@@ -7,6 +7,9 @@
     "preinstall": "npx only-allow pnpm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "simple-git-hooks": {
+    "commit-msg": "npx --no-install varlet-cli commit-lint $1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YeSuX/mlui.git"
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/YeSuX/mlui/issues"
   },
-  "homepage": "https://github.com/YeSuX/mlui#readme"
+  "homepage": "https://github.com/YeSuX/mlui#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "simple-git-hooks": "^2.8.0"
+  }
 }

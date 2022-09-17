@@ -1,2 +1,7 @@
 packages:
   - 'packages/ml-ui'
+  - 'packages/ml-docs'
+  - 'packages/ml-eslint-config'
+  - 'packages/ml-stylelint-config'
+  - 'packages/ml-admin'
+  - 'packages/ml-cli'
