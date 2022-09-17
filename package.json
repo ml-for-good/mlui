@@ -1,0 +1,24 @@
+{
+  "name": "mlui",
+  "version": "1.0.0",
+  "description": "An UI Framework for building machine learning platform.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeSuX/mlui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeSuX/mlui/issues"
+  },
+  "homepage": "https://github.com/YeSuX/mlui#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "simple-git-hooks": "^2.8.0"
+  }
+}
