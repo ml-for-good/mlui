@@ -25,9 +25,11 @@
     "pre-commit": "npx lint-staged --allow-empty"
   },
   "devDependencies": {
+    "eslint": "^8.24.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "simple-git-hooks": "^2.8.0",
-    "sort-package-json": "^2.0.0"
+    "sort-package-json": "^2.0.0",
+    "stylelint": "^14.13.0"
   }
 }

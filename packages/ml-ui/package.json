@@ -1,11 +1,11 @@
 {
   "name": "ml-ui",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,10 +14,12 @@
   },
   "devDependencies": {
     "@ml/eslint-config": "workspace:*",
+    "@ml/stylelint-config": "workspace:*",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
     "eslint": "^8.24.0",
+    "stylelint": "^14.13.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
     "vite-plugin-eslint": "^1.8.1"
