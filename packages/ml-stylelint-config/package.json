@@ -1,11 +1,22 @@
 {
-  "name": "ml-stylelint-config",
-  "version": "1.0.0",
+  "name": "@ml/stylelint-config",
+  "version": "0.0.0",
   "description": "",
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "mlui"
+  ],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "stylelint-config-standard": "^28.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.11.0"
+  }
 }
